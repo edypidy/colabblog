@@ -1,14 +1,14 @@
 $high-emph: rgba(white, 0.87);
 $med-emph: rgba(white, 0.69); //Noicee
 $low-emph: rgba(white, 0.38);
-// $dark-grey : #121212; 
-$dark-grey : #1F1B24;
-$overlay: mix($dark-grey, white, 69%);
-$overlay-light: mix($dark-grey, white, 87%);
+$dark-grey : #121212; 
+// $dark-grey : #1F1B24;
+$overlay: mix($dark-grey, white, 95%);
+$overlay-light: mix($dark-grey, white, 86%);
 
 html, body, input, textarea, select, button {   
   color: $high-emph !important;
-  background-color: $dark-grey !important;
+  background-color: $med-emph !important; //$dark-grey
 }
 
 a {
@@ -24,7 +24,7 @@ a:hover {
 }
 
 .site-nav {
-    background-color: $dark-grey;
+    background-color: $med-emph; //$dark-grey;
     border-color: $overlay-light;
 }
 
@@ -39,7 +39,7 @@ pre, code {
 }
 
 .page-description {
-    color: $med-emph;
+    color: $high-emph; //$med-emph;
 }
 
 .post-meta {
@@ -47,7 +47,7 @@ pre, code {
 }
 
 .post-content p, .post-content li {
-    color: $med-emph;
+    color: $high-emph; //$med-emph;
 }
 
 .btn {
@@ -78,7 +78,7 @@ table td{
 }
 
 canvas {
-    filter: invert(50%);
+    filter: invert(100%);
 }
 
 .post-list > li > div {
@@ -88,5 +88,5 @@ canvas {
 }
 
 li .post-meta-description {
-    color: $med-emph !important;
+    color: $high-emph !important; //$med-emph;
 }
