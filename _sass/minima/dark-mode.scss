@@ -24,7 +24,7 @@ a:hover {
 }
 
 .site-nav {
-    background-color: $low-emph; //$dark-grey;
+    background-color: $dark-grey; //$dark-grey;
     border-color: $overlay-light;
 }
 
@@ -39,7 +39,7 @@ pre, code {
 }
 
 .page-description {
-    color: $high-emph; //$med-emph;
+    color: $med-emph; //$med-emph;
 }
 
 .post-meta {
@@ -47,7 +47,7 @@ pre, code {
 }
 
 .post-content p, .post-content li {
-    color: $high-emph; //$med-emph;
+    color: $med-emph; //$med-emph;
 }
 
 .btn {
@@ -78,7 +78,7 @@ table td{
 }
 
 canvas {
-    filter: invert(100%);
+    filter: invert(50%);
 }
 
 .post-list > li > div {
@@ -88,5 +88,5 @@ canvas {
 }
 
 li .post-meta-description {
-    color: $high-emph !important; //$med-emph;
+    color: $med-emph !important; //$med-emph;
 }
