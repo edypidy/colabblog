@@ -486,7 +486,7 @@ p code { font-size: 19px; }
 
 /*-----------------------------------*/
 /*----- ADD YOUR STYLES BELOW -------*/
-html, body, input, textarea, select, button { color: rgba(255, 255, 255, 0.87) !important; background-color: #2F2F2F !important; }
+html, body, input, textarea, select, button { color: rgba(255, 255, 255, 0.87) !important; background-color: #4F4F4F !important; }
 
 a { color: #4bbaff !important; }
 
@@ -494,32 +494,32 @@ a:hover { color: rgba(255, 255, 255, 0.87) !important; }
 
 .site-title, .site-title:visited, .site-nav, .page-link { color: rgba(255, 255, 255, 0.87) !important; }
 
-.site-nav { background-color: #2F2F2F; border-color: #4c4c4c; }
+.site-nav { background-color: #4F4F4F; border-color: #686868; }
 
-* { scrollbar-color: #2F2F2F #4c4c4c; }
+* { scrollbar-color: #4F4F4F #686868; }
 
-pre, code { border-color: #4c4c4c; background-color: #393939; }
+pre, code { border-color: #686868; background-color: #585858; }
 
-.page-description { color: rgba(255, 255, 255, 0.69); }
+.page-description { color: rgba(255, 255, 255, 0.75); }
 
-.post-meta { color: rgba(255, 255, 255, 0.38); }
+.post-meta { color: rgba(255, 255, 255, 0.45); }
 
-.post-content p, .post-content li { color: rgba(255, 255, 255, 0.69); }
+.post-content p, .post-content li { color: rgba(255, 255, 255, 0.75); }
 
-.btn { background-color: #393939 !important; color: rgba(255, 255, 255, 0.87) !important; border-color: #4c4c4c !important; }
+.btn { background-color: #585858 !important; color: rgba(255, 255, 255, 0.87) !important; border-color: #686868 !important; }
 
-.btn:hover { background-color: #2F2F2F !important; }
+.btn:hover { background-color: #4F4F4F !important; }
 
-table th { background-color: #393939; border-color: #4c4c4c; color: rgba(255, 255, 255, 0.87); }
+table th { background-color: #585858; border-color: #686868; color: rgba(255, 255, 255, 0.87); }
 
-table td { background-color: #2F2F2F; border-color: #4c4c4c; color: rgba(255, 255, 255, 0.69); }
+table td { background-color: #4F4F4F; border-color: #686868; color: rgba(255, 255, 255, 0.75); }
 
-.flash { color: #2F2F2F !important; filter: brightness(80%); }
+.flash { color: #4F4F4F !important; filter: brightness(80%); }
 
 canvas { filter: invert(50%); }
 
-.post-list > li > div { box-shadow: none !important; background-color: #393939; border: none !important; }
+.post-list > li > div { box-shadow: none !important; background-color: #585858; border: none !important; }
 
-li .post-meta-description { color: rgba(255, 255, 255, 0.69) !important; }
+li .post-meta-description { color: rgba(255, 255, 255, 0.75) !important; }
 
 /*# sourceMappingURL=style.css.map */
